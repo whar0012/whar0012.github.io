@@ -1,39 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment - Tyler Wharmby</title>
 </head>
+
 <body>
     <header>
         <h1>Tyler Wharmby</h1>
     </header>
 
-    <main>
+    <nav><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About the Creator</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        
+    </ul></nav>
 
+    <main>
+        <img src="images/coverartj.jpg" alt="coverart">
     </main>
 
+    <div>
+        <section>
+            <article>
+                <h1>About Me</h1>
+                <p>As you probably guessed from the title, my name is Tyler Wharmby. I'm a born Canadian, born on January 23<sup>rd</sup>, 2003 and I was raised in the town of Bowmanville, Ontario. From a young age, I was always into technology and any aspects that revolved around design. I took up hobbies such as writing, drawing, and computer science. In high school, I realized it was possible to put my passion for technology and design together in classes such as programming, animation, and photoshop.</p>
+
+                <p>I’m currently a student at the Algonquin college located in Ottawa, Ontario and my current program of study is <abbr title="Interactive Media Design">IMD</abbr> Since a young age, I’ve always had a strong love for technology and any aspect of design. Even as a kid, manipulating technology to my advantage was a great way to spend my time, especially if I could get paid. I realized while back in my high school programming course that it was a great path to head down. Since then I have wanted to become a web developer, where I can use my passion as an occupation.</p> 
+
+                <br>
+
+                <q><em>All that we are is the result of what we have thought.</em></q><p>-Buddha</p>
+            </article>
+        </section>            
+    </div>
+    
+
+    <div>
+        <section>
+            <article>
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Films</li>
+                    <li>Fashion Design</li>
+                </ul>
+            </article>
+        </section>
+    </div>
+
+
     <section>
-        <article>
-            <h1>About Me</h1>
-            <p>As you probably guessed from the title, my name is Tyler Wharmby. I'm a born Canadian, born on January 23<sup>rd</sup>, 2003 and I was raised in the town of Bowmanville, Ontario. From a young age I was always into technology and any aspects that revolved around design. I took up hobbies such as, writing, drawing, and computer science. In highschool I realized it was possible to put my passion for technolgy and design together in classes such as, programming, animation, and photoshop.</p>
+            <h2>Links</h2>
+            <ol>
+                <li><a href="https://google.ca" target="_blank">Google</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ol>
 
-            <p>I’m currently a student at the Algonquin college located in Ottawa, Ontario and my current program of study is <abbr title="Interactive Media Design">IMD</abbr> Since a young age, I’ve always had a strong love for technology and any aspect of design. Even as a kid, manipulating technology to my advantage used to be a great way to spend my time, especially if I could get paid. I realized while back in my highschool programming course that it was a great path to head down. Ever since then I have wanted to become a web developer, where I can use my passion as an occupation.</p> 
-            
-            <br>
+    </section>
 
-            <q><em>All that we are is the result of what we have thought.</em></q><p>-Buddha</p>
-        </article>
+    <section>
+        <h2>Tables</h2>
+        <table>
+            <caption><strong>Student Information</strong></caption>
+            <thead>
+                <tr><th>Student Number</th><th>Student Name</th><th>Student Age</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>041051206</td><td>Tyler W</td><td>20</td>
+                </tr>
+                <tr>
+                    <td>041051209</td><td>John Smith</td><td>19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Forms</h2>
+        <form action="about.html" method="get">
+            <div>
+                <label for="firstname">Name</label>
+                <input id="firstname" type="text" name="fname" placeholder="Full Name">
+            </div>
+            <div>
+                <label for="questions">Questions</label>
+                <textarea name="questions" id="questions" placeholder="Ask your questions here..."></textarea>
+            </div>
+            <div>
+                <label for="program">Program</label>
+                <select name="program" id="program">
+                    <option id="imd">IMD (Interactive Media Design)</option>
+                    <option id="gd">Graphic Design</option>
+                </select>
+            </div>
+            <div>
+                <label for="web">Web</label>
+                <input type="checkbox" id="web" name="web">
+                <label for="photo">Photo</label>
+                <input type="checkbox" id="photo" name="photo">
+            </div>
+            <div>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="contact" value="yes">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="contact" value="no">
+            </div>
+            <button type="Submit">Send</button>
+
+        </form>
     </section>
     
     <footer>
-        <p>Copyright &copy; 2023 Tyler Wharmby</p>
+        <br>
+        Copyright &copy; 2023 Tyler Wharmby
     </footer>
 </body>
 
 </html>
-
 
 
