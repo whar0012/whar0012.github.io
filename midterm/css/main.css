@@ -1,8 +1,22 @@
 /* CSS */
 
+
+/* Applies Elements to Entire Code */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
 	line-height: 1;
 	background-color: #AAD4CF;
+}
+
+article {
+    padding-left: 1%;
+}
+
+article p {
+    padding-left: 38%;
 }
 
 h1{
@@ -12,6 +26,8 @@ h1{
     width: 100%;
     text-align: center;
     color: white;  
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 525;
 }
 
 .container{
@@ -21,7 +37,14 @@ h1{
 .wrapper {
     width: 700px;
     margin: auto;
+    background-color: #D4E9E7;
 }
+
+/* .wrapper {
+    margin: auto;
+    width: 1000px;
+    background-color: white;
+} */
 
 img{
     max-width: 100%;
@@ -44,11 +67,23 @@ nav  ul {
     padding: 0;
 }
 
+nav li:hover {
+background-color: #555;
+}
+
 nav li {
     display: inline-block;
     width: 32%;
     text-align: center;
 }
+
+nav li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
 nav li:nth-child(2){
     border-left: 1px solid gray;
@@ -62,4 +97,16 @@ article img {
 
 form {
     border: 1px solid black;
+}
+
+textarea {
+    resize: none;
+}
+
+h2 section{
+    padding-left: 20%;
+}
+
+footer {
+    text-align: right;
 }
