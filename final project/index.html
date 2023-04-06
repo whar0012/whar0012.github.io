@@ -8,18 +8,12 @@
     <title>Final Project</title>
 </head>
 
-<!-- Creates a Wrapper Class Containing Header and Image -->
+<!-- Displays Navigation Bar Linking to Separate Pages of Website -->
 <body>
-    <div class="wrapper">
+    <nav>
+        <div id="logo"><img src="images/logo.png" alt="logo" height="44" /></div>
 
-        <div class="container">
-            <header>
-                <h1>Welcome to Three Star Media</h1>
-            </header>
-        </div>
-
-        <!-- Displays Navigation Bar Linking to Seperate Pages of Website -->
-        <nav>
+        <div id="navItems">
             <ul>
                 <li><a href="Home.html">Home</a></li>
                 <li><a href="About_Us.html">About Us</a></li>
@@ -27,34 +21,105 @@
                 <li><a href="Team.html">Team</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
-        </nav>
+        </div>
+<!-- Creates a Search Bar Inside Navigation Bar -->
+        <div class="searchbar">
+            <input type="text" placeholder="Search..">
+        </div>
+    </nav>
+
+<!-- Creates a Wrapper Class Containing Header and Image -->
+    <div class="wrapper">
+
+        <div class="container" style="display: inline-block;">
+            <header>
+                <img src="images/main-banner.jpg" alt="main-banner">
+                <h1>Welcome to Three Star Media</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa, molestiae quo, tenetur placeat iure voluptatum laudantium deleniti eligendi sequi,<br> minima provident totam aliquam suscipit explicabo expedita sit commodi quos!</p>
+                <button type="button">Connect with us</button>
+            </header>
+        </div>
 
         <section>
+            <img src="images/about-us.jpg" alt="about-us">
             <h2>About Us</h2>
         </section>
 
-        <section>
-            <h2>Our Services</h2>
-            <p>(Content)</p>
-        </section>
+<!-- Displays All Content Available to User While Remaining in Seperate Sections -->
+        <div>
+            <section>
+                <h2>Our Services</h2>
+            </section>
+
+            <article>
+                <h2>Digital Tranformation</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa, molestiae quo, tenetur placeat iure voluptatum laudantium deleniti eligendi sequi,<br> minima provident totam aliquam suscipit explicabo expedita sit commodi quos!</p>
+                <img src="images/digital.jpg" alt="digitalTransformation">
+                <button type="button">Digital Plans</button>
+            </article>
+            <article>
+                <h2>Marketing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa, molestiae quo, tenetur placeat iure voluptatum laudantium deleniti eligendi sequi,<br> minima provident totam aliquam suscipit explicabo expedita sit commodi quos!</p>
+                <img src="images/marketing.jpg" alt="marketing">
+                <button type="button">Marketing Plans</button>
+            </article>
+            <article>
+                <h2>Video Production</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa, molestiae quo, tenetur placeat iure voluptatum laudantium deleniti eligendi sequi,<br> minima provident totam aliquam suscipit explicabo expedita sit commodi quos!</p>
+                <img src="images/video.jpg" alt="videoProduction">
+                <button type="button">Video Plans</button>
+            </article>
+            <article>
+                <h2>Web Development</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa, molestiae quo, tenetur placeat iure voluptatum laudantium deleniti eligendi sequi,<br> minima provident totam aliquam suscipit explicabo expedita sit commodi quos!</p>
+                <img src="images/web.jpg" alt="webDevelopment">
+                <button type="button">Web Plans</button>
+            </article>
+            <article>
+                <h2>Print</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa, molestiae quo, tenetur placeat iure voluptatum laudantium deleniti eligendi sequi,<br> minima provident totam aliquam suscipit explicabo expedita sit commodi quos!</p>
+                <img src="images/print.jpg" alt="print">
+                <button type="button">Print Plans</button>
+            </article>
+        </div>
 
         <section>
             <h2>Our Vision</h2>
-            <p>(Content)</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptas pariatur dignissimos, et placeat nisi, modi voluptates quo deserunt,<br> quisquam earum ipsam fugit quaerat necessitatibus totam inventore doloribus enim dolorum.</p>
+            <img src="images/vision.jpg" alt="vision">
+            <button type="button">Learn More</button>
         </section>
 
-        <section>
+<!-- Creates a Section About John Doe -->
+        <div>
             <h2>Our Team</h2>
-            <p>(Content)</p>
-        </section>
+            <article>
+                <h2>John Doe</h2>
+                <h3>CEO and Co-owner</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quas numquam possimus ut iusto fugiat nisi maiores. Consequuntur dolores, delectus doloribus a atque, at provident veniam quasi autem necessitatibus accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, cum impedit a harum officia animi repellat ab natus ad maiores obcaecati minima tempore ex architecto. A veniam repellat excepturi ipsum.</p>
+                <img src="images/john.jpg" alt="john">
+            </article>
+        </div>
 
-        <section>
-            <h2>Contact Us</h2>
-            <p>(Content)</p>
-        </section>
+<!-- Creates a Section About Bob Rite -->
+        <div>
+            <article>
+                <h2>Bob Rite</h2>
+                <h3>CFO and Co-owner</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quas numquam possimus ut iusto fugiat nisi maiores. Consequuntur dolores, delectus doloribus a atque, at provident veniam quasi autem necessitatibus accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora id, tempore vero recusandae molestiae corporis, cum aspernatur quo consectetur, distinctio ab fuga ad commodi dicta. Amet omnis fugit nulla officiis.</p>
+                <img src="images/bob.jpg" alt="bob">
+            </article>
+        </div>
 
+        <div>
+            <section>
+                <h2>Contact Us</h2>
+            </section>
+        </div>
+
+<!-- Creates a Form Allowing Users to Input a Message or Feedback -->
         <section>
-            <h2 id="contact">Contact to Learn More</h2>
+            <h2 id="contact">Send us a message</h2>
             <form action="about.html" method="get">
                 <div>
                     <br>
@@ -77,13 +142,42 @@
                     <br>
                     <textarea name="message" id="message" rows="4" cols="85"></textarea>
                 </div>
-                
-                <br>
-                <button type="Submit">Send</button>
 
+                <br>
+
+                <button type="Submit">Send</button>
             </form>
+
+<!-- Displays Embedded Map Linking User to Current Location -->
+            <section>
+                <h2>Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.881971314758!2d-75.7578513849452!3d45.351194779099785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718c5998a3b%3A0x78382f39c3e19269!2sAlgonquin%20College%20Residence!5e0!3m2!1sen!2sca!4v1680107228470!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+<!-- Creates Border for Table Inserted Below -->
+<!-- <style>table, th, td {border:1px solid black;}</style> -->
+
+<!-- Inserts Table Displaying Available Hours -->
+            <table>
+                <tr>
+                  <th>Days</th>
+                  <th>Hours</th>
+                </tr>
+                <tr>
+                  <td>Monday-Friday</td>
+                  <td>Saturday-Sunday</td>
+                </tr>
+                <tr>
+                  <td>9 AM - 6 PM</td>
+                  <td>Closed</td>
+                </tr>
+              </table>
         </section>
+
+    <!-- Creates a Footer Containing Copyright Information -->
+        <footer>© Copyright Three Stars Media, 2020<br>All images are taken from <u>Unsplash</u></footer>
     </div>
+
 </body>
 
 </html>
