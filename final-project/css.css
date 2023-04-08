@@ -53,3 +53,31 @@ table {
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: #F5F1E8;
+    font-size: 2rem;
+}
+
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    background-color: #aaa77c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* DESKTOP: Centers Content When Screen Size Matches 1000px */
+@media screen and (min-width: 1000px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .wrapper {
+        width: 1000px;
+    }
+}
